@@ -1,4 +1,4 @@
-# Yogesh Gupta Gudipati — Portfolio
+# Yogesh Gupta Gudipati - Portfolio
 
 A 3D, single-page portfolio built with React, Vite, TypeScript, three.js
 (react-three-fiber), Tailwind CSS v4, and Framer Motion.

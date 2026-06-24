@@ -36,7 +36,7 @@ export const profile = {
   heroLine:
     "I build detection systems and agentic AI that turn noisy signals into confident, explainable decisions.",
   summary:
-    "Senior Data Scientist with 8+ years across risk management, fraud detection, and applied machine learning at multi-billion-dollar scale. I own production ML end to end — from feature engineering and calibration to MLOps, monitoring, and multi-agent systems — with a track record of $25M+ in modeled cost savings.",
+    "Senior Data Scientist with 8+ years across risk management, fraud detection, and applied machine learning at multi-billion-dollar scale. I own production ML end to end, from feature engineering and calibration to MLOps, monitoring, and multi-agent systems, with a track record of $25M+ in modeled cost savings.",
 };
 
 export const metrics: { value: string; label: string }[] = [
@@ -102,24 +102,24 @@ export const projects: Project[] = [
 export const experience: Experience[] = [
   {
     company: "Microsoft",
-    role: "Senior Data Scientist — Account Reputation & Trust",
+    role: "Senior Data Scientist, Account Reputation & Trust",
     context: "via Centific Technologies",
     location: "Dallas, TX",
-    period: "Sep 2023 — Present",
+    period: "Sep 2023 - Present",
     points: [
-      "Own a production ML system (Queue Prioritization Score) — LightGBM on Azure ML with a scikit-learn pipeline, ColumnTransformer, and ONNX export served through a modern prediction service.",
+      "Own a production ML system (Queue Prioritization Score): LightGBM on Azure ML with a scikit-learn pipeline, ColumnTransformer, and ONNX export served through a modern prediction service.",
       "Built MLOps with automated retraining and a pre-deployment gate on AUC and TPR at fixed low false-positive rates.",
       "Engineered features over Risk Data Attributes with out-of-time holdouts, target encoding, and importance-driven selection.",
-      "Drove loss-prevention detectors across Azure, M365, Anthropic, and Xbox — contributing to $25M+ in savings.",
+      "Drove loss-prevention detectors across Azure, M365, Anthropic, and Xbox, contributing to $25M+ in savings.",
       "Built multi-agent anomaly triage with Semantic Kernel and Azure OpenAI plus RAG over Azure AI Search: false positives −60%, hallucinations −50%, transparency +45%.",
     ],
   },
   {
     company: "Amazon",
-    role: "Risk Manager — Payment & Fraud Risk Analysis",
+    role: "Risk Manager, Payment & Fraud Risk Analysis",
     context: "",
     location: "Hyderabad, India",
-    period: "Jul 2017 — Dec 2021",
+    period: "Jul 2017 - Dec 2021",
     points: [
       "Built a full-stack fraud investigation tool (C# / ASP.NET Core) and Python analytics pipelines.",
       "Stood up the Bengaluru and Costa Rica sites and managed 40 analysts across three locations.",
@@ -183,5 +183,5 @@ export const skillGroups: SkillGroup[] = [
 export const education = {
   degree: "M.S. in Statistics, Data Science",
   school: "California State University, East Bay",
-  detail: "GPA 3.77 · Aug 2021 — May 2023",
+  detail: "GPA 3.77 · Aug 2021 - May 2023",
 };

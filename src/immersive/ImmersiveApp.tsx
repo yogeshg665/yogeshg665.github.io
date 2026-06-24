@@ -189,7 +189,7 @@ function ImmersiveProjectCard({ project, index }: { project: Project; index: num
           <ul className="mt-5 space-y-2.5">
             {project.features.map((f) => (
               <li key={f} className="flex gap-3 text-sm text-muted">
-                <span style={{ color: project.accent }}>—</span>
+                <span style={{ color: project.accent }}>·</span>
                 <span>{f}</span>
               </li>
             ))}
@@ -228,7 +228,7 @@ function ImmersiveProjects() {
       <Parallax>
         <Eyebrow color="#16c784">Selected work</Eyebrow>
         <h2 className="mt-6 max-w-2xl font-display text-4xl font-semibold tracking-tight sm:text-5xl">
-          Three deterministic, agentic systems — each with an independent safety
+          Three deterministic, agentic systems, each with an independent safety
           gate.
         </h2>
       </Parallax>
@@ -272,7 +272,7 @@ function ImmersiveExperience() {
               <ul className="mt-4 space-y-2.5">
                 {job.points.map((p) => (
                   <li key={p} className="flex gap-3 text-sm leading-relaxed text-muted">
-                    <span className="text-influx">—</span>
+                    <span className="text-influx">·</span>
                     <span>{p}</span>
                   </li>
                 ))}

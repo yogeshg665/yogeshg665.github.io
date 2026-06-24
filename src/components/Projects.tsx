@@ -72,7 +72,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           <ul className="mt-5 space-y-2.5">
             {project.features.map((f) => (
               <li key={f} className="flex gap-3 text-sm text-muted">
-                <span style={{ color: project.accent }}>—</span>
+                <span style={{ color: project.accent }}>·</span>
                 <span>{f}</span>
               </li>
             ))}
@@ -110,7 +110,7 @@ export default function Projects() {
       <Reveal>
         <SectionLabel>Selected work</SectionLabel>
         <h2 className="mt-6 max-w-2xl font-display text-3xl font-semibold tracking-tight sm:text-4xl">
-          Three deterministic, agentic systems — each with an independent safety
+          Three deterministic, agentic systems, each with an independent safety
           gate.
         </h2>
       </Reveal>
