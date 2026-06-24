@@ -10,8 +10,6 @@ npm install
 npm run dev
 ```
 
-Open the printed local URL (default http://localhost:5173).
-
 ## Build
 
 ```bash
@@ -24,5 +22,3 @@ npm run preview
 - 3D scenes mount only when scrolled into view and are disabled on mobile and
   for users who prefer reduced motion (a static gradient is shown instead).
 - Content lives in `src/data/profile.ts`.
-- Drop the resume PDF at `public/Yogesh-Gupta-Gudipati-Resume.pdf` so the
-  "Download resume" buttons resolve.
